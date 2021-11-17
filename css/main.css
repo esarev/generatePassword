@@ -50,12 +50,19 @@ h2 {
 }
 
 button {
+  position: relative;
   width: 30px;
   height: 30px;
   margin-left: 8px;
   border: 2px solid rgb(43, 43, 58);
   border-radius: 4px;
   transition: .2s;
+  
+}
+button i {
+  position: absolute;
+  top: 6px;
+  right: 7px;
 }
 button:hover {
   background: #000;
